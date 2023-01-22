@@ -111,6 +111,12 @@ body {
   bottom: 64%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  #header #hunbrger {
+    display: block;
+  }
 }
 #header #hunbrger span:nth-child(1) {
   position: absolute;
